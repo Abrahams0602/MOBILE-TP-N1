@@ -1,5 +1,6 @@
 package ar.com.ifts18.aprendiendokotlin
 
+
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -42,9 +43,8 @@ class MainActivity : AppCompatActivity() {
 
             }else {
 
-                val Telefononumero = inputTelefono.toIntOrNull()
 
-                if(Telefononumero == null || Telefononumero ==  10) {
+                if(inputTelefono == null || inputTelefono.length != 10){
                     Toast.makeText( this, "Por favor, ingresa una número de teléfono válido", Toast.LENGTH_SHORT).show()
 
                 }else {
@@ -61,4 +61,4 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        }
+    }}
