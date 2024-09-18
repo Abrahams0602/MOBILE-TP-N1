@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation= "vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="¡Hola, Bienvenido!" />
+
+
+    <EditText
+        android:id="@+id/TVnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Ingresa tu nombre"
+        android:inputType="textPersonName"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/TVedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Ingresa tu edad"
+        android:inputType="number"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/TVdireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Ingresa tu Dirección"
+        android:layout_marginTop="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="registrar"
+        />
+
+
+
+
+</LinearLayout>
